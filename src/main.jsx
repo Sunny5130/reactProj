@@ -1,12 +1,14 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 import './index.css'
-import App from './App.jsx'
+// import App from './App.jsx'
+import Operation from './Pract.jsx'
 // import Sai from './Saini.jsx';
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <App />
+    {/* <App /> */}
+    <Operation />
     {/* <Sai /> */}
   </StrictMode>,
 )
