@@ -1,20 +1,15 @@
-    // const fruit=(name)=>{      // js function ko bahar bhe rakh sakhte hai component ke
-    //     alert(name);
-    // }
+import { useState } from "react";
 
 function Operation(){
-    function saini(){
-        alert("I am pop up");
-    }
-    const fruit=(name)=>{
-        alert(name);
-    }
-
+   const [fruit,setfruit]=useState("apple");
+  let handlefruit=()=>{
+    setfruit("banana");
+   }
     return(
         <>
-
-        <button onClick={saini}>Click me</button> {/*dont use brackets after functions*/}
-        <button onClick={()=>fruit("apple")}>fruits</button>
+        <h1>States in react js</h1>
+        <h1>{fruit}</h1>
+    <button onClick={handlefruit}>change fruit</button>
         </>
     )
 }
