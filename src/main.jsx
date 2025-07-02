@@ -4,15 +4,17 @@ import './index.css'
 // import App from './App.jsx'
 // import Operation from './Pract.jsx'
 // import Sai from './Saini.jsx';
-import ChangeState from './Usestate'
-import Hide from './Toggle'
+// import ChangeState from './Usestate'
+// import Hide from './Toggle'
+import Parent from './Parent'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     {/* <App /> */}
     {/* <Operation/> */}
-    <ChangeState />
-    <Hide/>
+    {/* <ChangeState /> */}
+    {/* <Hide/> */}
+    <Parent />
     {/* <Sai /> */}
   </StrictMode>,
 )

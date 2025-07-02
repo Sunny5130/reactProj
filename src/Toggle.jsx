@@ -18,7 +18,7 @@ function Hide(){
         <button onClick={toggle}>Toggle2</button>
         {display ?<h1>Hide kro toggle button click karke</h1> : null}
         <br />
-
+    
         </>
     )
 
