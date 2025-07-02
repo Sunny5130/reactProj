@@ -1,9 +1,11 @@
 import { useState } from "react";
 import Child1 from "./child1";
 import Child2 from "./child2";
+import Default from "./Defaultusername.";
 function Parent(){
-    // let username="Sunny Saini";
+    // let username="I am default usename";
     // var ages=23;
+
 
     let obj1={
         name:"Sainis",
@@ -26,12 +28,16 @@ function Parent(){
 
 
 
-        <hr />
+        {/* <hr /> */}
         {/* <Child1 name={username}/>           first way to pass  */}
-        { state && <Child1 name={obj1} p={state}/>}
-        <hr />
+        {/* { state && <Child1 name={obj1} p={state}/>} */}
+        {/* <hr /> */}
         {/* <Child2 name="sunny" age="23" />     second way to pass */}
-        <Child2 name2={obj2}/>
+        {/* <Child2 name2={obj2}/> */}
+        {/* <hr /> */}
+
+        <Default name="hii saini" />
+        <Default />
         </>
     )
 

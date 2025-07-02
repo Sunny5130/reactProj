@@ -6,15 +6,16 @@ import './index.css'
 // import Sai from './Saini.jsx';
 // import ChangeState from './Usestate'
 // import Hide from './Toggle'
-import Parent from './Parent'
-
+// import Parent from './props/Parent'
+import ClearButton from './practice/Clearbutton'
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     {/* <App /> */}
     {/* <Operation/> */}
     {/* <ChangeState /> */}
     {/* <Hide/> */}
-    <Parent />
+    {/* <Parent /> */}
     {/* <Sai /> */}
+    <ClearButton/>
   </StrictMode>,
 )
