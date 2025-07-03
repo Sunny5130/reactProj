@@ -8,7 +8,7 @@ function Useeffect() {
     console.log("✅ Component Mounted");
 
     return () => {
-      console.log("❌ Component Will Unmount");
+      console.log("❌  Component Will be Unmount");
     };
   }, []);
 
