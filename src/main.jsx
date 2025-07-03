@@ -10,7 +10,7 @@ import './index.css'
 // import ClearButton from './practice/Clearbutton'
 // import Loop from './practice/Loop'
 // import Useeffect from './hook/Useeffect'
-import ParentToggle from './hook/ParentToggle'
+// import ParentToggle from './hook/ParentToggle'
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     {/* <App /> */}
@@ -22,6 +22,6 @@ createRoot(document.getElementById('root')).render(
     {/* <ClearButton/> */}
     {/* <Loop/> */}
     {/* <Useeffect/> */}
-    <ParentToggle/>
+    {/* <ParentToggle/> */}
   </StrictMode>,
 )
