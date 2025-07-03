@@ -7,7 +7,8 @@ import './index.css'
 // import ChangeState from './Usestate'
 // import Hide from './Toggle'
 // import Parent from './props/Parent'
-import ClearButton from './practice/Clearbutton'
+// import ClearButton from './practice/Clearbutton'
+import Loop from './practice/Loop'
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     {/* <App /> */}
@@ -16,6 +17,7 @@ createRoot(document.getElementById('root')).render(
     {/* <Hide/> */}
     {/* <Parent /> */}
     {/* <Sai /> */}
-    <ClearButton/>
+    {/* <ClearButton/> */}
+    <Loop/>
   </StrictMode>,
 )
