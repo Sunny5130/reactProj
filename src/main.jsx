@@ -14,7 +14,12 @@ import './index.css'
 // import Bootstrap from './style/Bootstrap'
 // import 'bootstrap/dist/css/bootstrap.min.css';
 // import Useref from './hook/Useref'
-import Call from './practice/CallFunctionToAnotherCOmponent'
+// import Call from './practice/CallFunctionToAnotherCOmponent'
+// import UpdatobjectInState from './practice/Updateobjectinstate'
+// import Fragment from './practice/Fragment'
+// import Contextapi from './contextApi/Contextapi'
+import Nav from './routes/Nav'
+import { BrowserRouter } from 'react-router'
 
 // import Style from './style/Style'
 createRoot(document.getElementById('root')).render(
@@ -32,6 +37,14 @@ createRoot(document.getElementById('root')).render(
     {/* <Style/> */}
     {/* <Bootstrap /> */}
     {/* <Useref/> */}
-    <Call/>
+    {/* <Call/> */}
+    {/* <UpdatobjectInState/> */}
+    {/* <Fragment/> */}
+    {/* <Contextapi/> */}
+
+  <BrowserRouter>
+  <Nav/>
+  </BrowserRouter>
+  
   </StrictMode>,
 )
