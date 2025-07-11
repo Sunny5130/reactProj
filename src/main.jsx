@@ -18,8 +18,11 @@ import './index.css'
 // import UpdatobjectInState from './practice/Updateobjectinstate'
 // import Fragment from './practice/Fragment'
 // import Contextapi from './contextApi/Contextapi'
-import Nav from './routes/Nav'
+
+// import Nav from './routes/Nav'
 import { BrowserRouter } from 'react-router'
+// import Api from './api/api'
+import Userlist from './api/Userlist'
 
 // import Style from './style/Style'
 createRoot(document.getElementById('root')).render(
@@ -42,9 +45,13 @@ createRoot(document.getElementById('root')).render(
     {/* <Fragment/> */}
     {/* <Contextapi/> */}
 
-  <BrowserRouter>
+  {/* <BrowserRouter>
   <Nav/>
+  </BrowserRouter> */}
+  {/* <Api/> */}
+<BrowserRouter>
+    <Userlist />
   </BrowserRouter>
-  
+
   </StrictMode>,
 )

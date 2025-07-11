@@ -1,0 +1,46 @@
+.container {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+#h {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #2a71d0;
+}
+
+.user-table {
+  width: 80%;
+  margin: 0 auto;
+  border-collapse: collapse;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.user-table th,
+.user-table td {
+  padding: 12px 15px;
+  border: 2px solid #c24e4e;
+  text-align: left;
+}
+
+.user-table th {
+  background-color: #f4f6f8;
+  color: #333;
+}
+
+.user-table tr:hover {
+  background-color: #f1f1f1;
+}
+
+#btn a {
+  text-decoration: none;
+  color: #000000; 
+}
+#btn a.active {
+  font-weight: bold; 
+  color: #2a71d0;
+}
+#btn{
+  text-align: center;
+}
