@@ -20,9 +20,11 @@ import './index.css'
 // import Contextapi from './contextApi/Contextapi'
 
 // import Nav from './routes/Nav'
-import { BrowserRouter } from 'react-router'
+// import { BrowserRouter } from 'react-router'
 // import Api from './api/api'
-import Userlist from './api/Userlist'
+// import Userlist from './api/Userlist'
+// import Form from './FormValidation/Form'
+import Usereduce from './hook/UseReducer'
 
 // import Style from './style/Style'
 createRoot(document.getElementById('root')).render(
@@ -49,9 +51,12 @@ createRoot(document.getElementById('root')).render(
   <Nav/>
   </BrowserRouter> */}
   {/* <Api/> */}
-<BrowserRouter>
+
+{/* <BrowserRouter>
     <Userlist />
-  </BrowserRouter>
+  </BrowserRouter> */}
+  {/* <Form/> */}
+  <Usereduce/>
 
   </StrictMode>,
 )
